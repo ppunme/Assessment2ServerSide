@@ -1,0 +1,40 @@
+<%- include('templates/header'); -%>
+<header class="subhead">
+  <div class="container">
+    <div class="intro-text">Services</div>
+  </div>
+</header>
+
+<div class="container" id="servicelist">
+  <div class="row">
+    <div class="col-sm-8 mt-5">
+      <article class="servicelist">
+        <div class="container">
+          <div class="row">
+            <% servicesList.forEach(function(item) {%>
+            <div class="mr-3 mb-5">
+              <h3><%= item.title %></h3>
+              <h5>
+                <a href="/services/<%= item.shortname %>"><%= item.name %></a>
+              </h5>
+              <p>
+                <a href="/services/<%= item.shortname %>">
+                  <img
+                    class="servicelist-img pull-left mr-4"
+                    src="/img/services/<%= item.shortname %>_tn.jpg"
+                  />
+                </a>
+                <%= item.summary %>
+              </p>
+            </div>
+            <% }); %>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <%- include('templates/sidebar'); -%>
+  </div>
+</div>
+
+<%- include('templates/footer'); -%>

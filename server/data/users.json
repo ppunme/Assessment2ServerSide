@@ -1,0 +1,9 @@
+{
+  "users": [
+    {
+      "name": "John Doe",
+      "shortname": "John_Doe",
+      "mostviewedService": "nail"
+    }
+  ]
+}

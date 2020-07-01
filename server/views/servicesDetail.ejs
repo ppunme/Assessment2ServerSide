@@ -1,0 +1,32 @@
+<%- include('templates/header'); -%>
+<header class="subhead">
+  <div class="container">
+    <div class="intro-text">Services</div>
+  </div>
+</header>
+
+<div class="container" id="servicesDetail">
+  <div class="row">
+    <div class="col-sm-8 mt-5">
+      <article class="servicesDetail">
+        <div class="container">
+          <h3><%= service.title %></h3>
+          <h5 class="service-name"><%= service.name %></h5>
+          <div class="text-center">
+            <img
+              width="100%"
+              src="/img/services/<%= service.shortname %>.jpg"
+              alt="Photo of <%= service.name %>"
+            />
+            <p class="servicelist-info">
+              <%- service.description %>
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+    <%- include('templates/sidebar'); -%>
+  </div>
+</div>
+
+<%- include('templates/footer'); -%>

@@ -1,0 +1,92 @@
+<%- include('templates/header'); -%>
+<header class="subhead">
+  <div class="container">
+    <div class="intro-text">Feedback</div>
+  </div>
+</header>
+
+<div class="container" id="feedback">
+  <div class="row">
+    <div class="col-sm-4 mt-5">
+      <h3 class="feedback-form-title">Send us feedback!</h3>
+      <p class="text-muted">
+        We would like your feedback to improve our website.
+      </p>
+
+      <%# Feedback Form %>
+      <form
+        class="feedback-form validation"
+        novalidate
+        action="/feedback"
+        method="POST"
+      >
+        <div class="form-group">
+          <label for="fbName">Name</label>
+          <input
+            class="form-control"
+            id="fbName"
+            type="text"
+            placeholder="Enter your name"
+            pattern="[A-Za-z].{1,}"
+            name="fbName"
+            required
+          />
+          <div class="invalid-feedback">
+            Please provide a name.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="fbTitle">Title</label>
+          <input
+            class="form-control"
+            id="fbTitle"
+            type="text"
+            placeholder="Title of your feedback"
+            pattern=".{2,}"
+            name="fbTitle"
+            required
+          />
+          <div class="invalid-feedback">
+            Please provide a title.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="fbMessage">Message</label>
+          <textarea
+            class="form-control"
+            id="fbMessage"
+            type="text"
+            placeholder="Enter your feedback"
+            name="fbMessage"
+            rows="6"
+            required
+          ></textarea>
+          <div class="invalid-feedback">
+            Please provide feedback.
+          </div>
+        </div>
+
+        <button class="btn btn-feedback" type="submit">Submit</button>
+      </form>
+      <%# /Feedback Form %>
+    </div>
+
+    <%# primary %>
+    <aside class="col-sm-8 mt-5 mb-5">
+      <h2>Recent Feedback</h2>
+
+      <%# Feedback List Loop %> <% feedbackList.forEach(function(item) { %>
+
+      <div class="feedback-messages my-4 box">
+        <div class="feedback-title"><%= item.title %></div>
+        <div class="feedback-message mt-1"><%= item.message %></div>
+        <div class="feedback-name mt-2 ml-3">&mdash; <%= item.name %></div>
+      </div>
+
+      <% }); %> <%# Feedback List Loop %>
+    </aside>
+    <%# secondary %>
+  </div>
+</div>
+
+<%- include('templates/footer'); -%>

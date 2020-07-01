@@ -1,0 +1,57 @@
+{
+  "services": [
+    {
+      "title": "Nail bar",
+      "name": "Medicure, Pedicure and Gel nails",
+      "shortname": "nail",
+      "price": "$20-$55",
+      "summary": "High quality nail service and experienced beauty therapist will look after your nails. We offer a stunning variety of colours and finishes. We operate to the highest standards in health and hygiene. All tools are single use, and pedicure baths are thoroughly sanitised and disinfected.",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget nunc lobortis mattis aliquam faucibus purus. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Aliquet bibendum enim facilisis gravida neque convallis a cras. Eget lorem dolor sed viverra ipsum. Cursus metus aliquam eleifend mi in. Blandit turpis cursus in hac habitasse platea. Ut lectus arcu bibendum at. Molestie at elementum eu facilisis sed odio. Egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Vel pharetra vel turpis nunc eget. Metus dictum at tempor commodo ullamcorper a lacus vestibulum sed. Dolor purus non enim praesent elementum facilisis leo vel fringilla. Auctor elit sed vulputate mi sit amet.</p>",
+      "artwork": [
+        "nail_01_tn.jpg",
+        "nail_02_tn.jpg",
+        "nail_03_tn.jpg",
+        "nail_04_tn.jpg",
+        "nail_05_tn.jpg",
+        "nail_06_tn.jpg",
+        "nail_07_tn.jpg",
+        "nail_08_tn.jpg"
+      ]
+    },
+    {
+      "title": "Eyelash",
+      "name": "Eyelash Extentions services",
+      "shortname": "eyelash",
+      "price": "$40-$80",
+      "summary": "Mascara is no longer a necessity. We are committed to providing you with the lashes you’ve been dreaming of. Our semi permanent eyelash extensions are super soft yet extremely durable synthetic silk lashes that can last up to 8 weeks",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat pellentesque adipiscing commodo elit at imperdiet. Porta non pulvinar neque laoreet. Id neque aliquam vestibulum morbi blandit cursus risus. In egestas erat imperdiet sed euismod nisi porta. Facilisi cras fermentum odio eu feugiat pretium.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam sit amet nisl purus in mollis. Aenean et tortor at risus viverra adipiscing at in. Sollicitudin ac orci phasellus egestas tellus. Libero nunc consequat interdum varius. Viverra mauris in aliquam sem fringilla ut morbi. Consequat ac felis donec et odio pellentesque diam. Nibh praesent tristique magna sit. Massa eget egestas purus viverra accumsan in nisl nisi scelerisque. Convallis aenean et tortor at risus viverra.</p>",
+      "artwork": [
+        "eyelash_01_tn.jpg",
+        "eyelash_02_tn.jpg",
+        "eyelash_03_tn.jpg",
+        "eyelash_04_tn.jpg",
+        "eyelash_05_tn.jpg",
+        "eyelash_06_tn.jpg",
+        "eyelash_07_tn.jpg"
+      ]
+    },
+    {
+      "title": "Hair Salon",
+      "name": "Hair cut, Perming and Colouring",
+      "shortname": "hair",
+      "price": "$30-$180",
+      "summary": "All stylists are well trained, hight skills and have latest techniques. Lots of satisfaction feedback. We strongly recommend our extensive hair treatment and head spa menu, in which we use our very own shampoo and treatment that was create through incorporating the customers' feedback",
+      "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ornare aenean euismod elementum nisi. Sollicitudin aliquam ultrices sagittis orci a scelerisque. Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu. Nibh ipsum consequat nisl vel pretium lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis viverra nibh cras pulvinar mattis nunc sed blandit. Ante in nibh mauris cursus mattis. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Sed risus pretium quam vulputate dignissim suspendisse in est. Massa eget egestas purus viverra accumsan in nisl nisi. Eget nunc scelerisque viverra mauris in aliquam sem fringilla. Aenean euismod elementum nisi quis eleifend quam. Viverra vitae congue eu consequat.</p>",
+      "artwork": [
+        "hair_01_tn.jpg",
+        "hair_02_tn.jpg",
+        "hair_03_tn.jpg",
+        "hair_04_tn.jpg",
+        "hair_05_tn.jpg",
+        "hair_06_tn.jpg",
+        "hair_07_tn.jpg",
+        "hair_08_tn.jpg"
+      ]
+    }
+  ]
+}

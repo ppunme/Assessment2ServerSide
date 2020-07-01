@@ -1,0 +1,44 @@
+<aside class="col-sm-4">
+  <!-- Contact Us -->
+  <article class="sidebar mt-5">
+    <h3 class="sidebar-title">Contact Us</h3>
+    <div class="sidebar-body">
+      <p>
+        <i class="fas fa-store-alt"></i> 166 Lonsdale st., Melbourne VIC 3000
+      </p>
+      <p>
+        <i class="far fa-envelope"></i>&nbsp;<a
+          href="mailto:beautyvenue@gmail.com"
+          >beautyvenue@gmail.com</a
+        >
+      </p>
+      <p>
+        <i class="fas fa-phone-alt"></i>
+        +61 3 2222 0404
+      </p>
+      <p>
+        <i class="far fa-clock"></i>
+        Opening Hours: 10AM-7PM
+      </p>
+    </div>
+  </article>
+
+  <!-- Portfolio -->
+  <article class="sidebar mb-5">
+    <h3 class="sidebar-title pt-3">Portfolio</h3>
+    <p class="sidebar-body">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <div class="row row-cols-3 sidebar-img">
+      <% if (artwork.length > 0) { %> <%for (var i=0; i < artwork.length; i ++){
+      %>
+      <div class="col">
+        <div>
+          <img class="adjust-img" src="/img/artwork/<%= artwork[i] %>" />
+        </div>
+      </div>
+      <%}%> <% } %>
+    </div>
+  </article>
+</aside>
